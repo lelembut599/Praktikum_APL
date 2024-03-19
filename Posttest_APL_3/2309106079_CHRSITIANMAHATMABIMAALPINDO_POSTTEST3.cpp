@@ -6,7 +6,7 @@ using namespace std;
 struct Barang {
     string nama;
     int stok;
-    double harga;
+    int harga;
 };
 
 vector<Barang> DaftarBarang;
@@ -90,7 +90,7 @@ void hapusBarang() {
 
     DaftarBarang.erase(DaftarBarang.begin() + (nomor - 1));
 
-    cout << "\nBarang Berhasil Dihapus\n" << endl;
+    cout << "\nBarang Berhasil Dihapus, Aman Bro\n" << endl;
 }
 
 bool login() {
